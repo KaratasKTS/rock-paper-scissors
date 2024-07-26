@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title> <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1 style="font-weight:bolder; font-size: 50px;"> Rock Paper Scissors</h1>
+    <h1> The Odin Project</h1>
+    <img src="./images/The-odin-logo.png" height="300px" width="300px">
+    <div class="h3Father">
+        <h3>Human Choice</h3>
+        <h3>Computer Choice</h3>    
+    </div>
+    
+    <div class="divFather">
+        <div class="div1"> </div>
+        <div class="div2"> </div>
+    </div>
+
+    <div class="buttonFather">
+        <button class="choice" id = "rock" type="button">Rock</button>
+        <button class="choice" id = "paper" type="button">Paper</button>
+        <button class="choice" id = "scissors" type="button">Scissors</button>
+    </div>
+    <div class="tie"></div>
+    <div class="scoreSection">
+        <div class = "humanScoreFather">
+            <div class= "scores">
+                <h3 class = "humanScore">humanScore</h3>
+                <div class = humanScoreDiv></div>
+            </div>
+    
+            <div class = "computerScoreFather">
+                <h3 class = "computerScore">computerScore</h3>
+                <div class = computerScoreDiv></div>
+            </div>
+    </div>
+    <dialog class="modal">
+        <h1 style="color: black;">Game Over</h1>
+        <span class="span"></span>
+        <h3 style="color: black;">Want to go again?</h3>
+        <button type="button" id="refresh" onClick="window.location.reload();">refresh</button>
+    </dialog>    
+</body>
+</html>
